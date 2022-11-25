@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subtitle: A awesome static site generator.
+title: Xavier2 접속 안 될 때
+subtitle: xavier2
 author: Jeffrey
 categories: jekyll
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
   volume: 0.8
   start_at: 8.5
@@ -18,57 +17,20 @@ banner:
   subheading_style: "color: gold"
 tags: jekyll theme yat
 sidebar: []
+comments: true
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-## section 1
+## how to relogin xavier2
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-## section 2
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-$ a \* b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
-// prints 'Hi, Tom' to STDOUT.
 ```
+1. xavier2장비 불이 들어와져있으면 전원 꾹!! 누르고 꺼진 걸 확인
+2. 다시 전원을 켜고 불이 들어온 걸 확인
+3. 키보드마우스 usb xavier2장비에 꼽는다
+4. 오른쪽 모니터 켠다 (이미 hdmi연결되어있고 무조건 HDMI1로 들어가라 모니터 조정해서)
+5. 모니터가 켜지고 장비 안에 접속이 되면 직접 로그인해서 들어가진 거다.
+6. 다시 ssh nvidia-xavier2 접속해봐라 될 거다
+7. 안 되면…. 뭔가가 잘못 된 것이다….
 
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
 ```
