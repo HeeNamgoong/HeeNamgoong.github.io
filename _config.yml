@@ -29,7 +29,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-google_analytics: G-MN3R6WW2Q3dslfkj
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-MN3R6WW2Q3"
+    anonymize_ip         : # true, false (default)
 
 
 # Build settings
