@@ -134,4 +134,4 @@ bundel exec jekyll serve
 
 9. **특강에 다뤄졌던 내용 Topic 중 배운 내용에 관해 Post 작성**
  
-    * [여기](https://heenamgoong.github.io/jekyll/2022/11/28/GA.html)에 Google Analytics post를 만들어 놨다. 참고하면 된다.
+    * [여기](https://heenamgoong.github.io/jekyll/2022/11/28/Githtml)에 Git post를 만들어 놨다. 참고하면 된다.
