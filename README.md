@@ -47,11 +47,48 @@
     ```
 
 
-3. **Install Ruby**
+3. **Install Ruby & Jekyll**
+```bash
+sudo apt install ruby-full
+ruby -v
 
-4. **Install Jekyll**
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+source ~/.bashrc
+which rbenv
 
-5. **Jekyll 시작하기**
+sudo apt install curl
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-doctor | bash
+
+rbenv install 3.1.2
+rbenv global 
+which rbenv global 3.1.2
+
+sudo apt-get install ruby-full build-essential zlib1g-dev
+sudo rvm get head
+which rvm
+which rbenv
+sudo rvm get head
+curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+
+sudo rvm get head
+rvm list known
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+gem install public_suffix -v 4.0.7
+gem install rouge -v 3.30.0
+gem install jekyll bundler
+jekyll new . --force
+bundel exec jekyll serve
+
+```
+
+4. **Jekyll 시작하기**
 
   ```bash
   $ jekyll new . --force # 현재 디렉토리에 Jekyll 설치
@@ -59,13 +96,13 @@
   ```
   * `https://localhost:4000` 접속
 
-6. **Theme 적용**
+5. **Theme 적용**
 
     * [여기](http://jekyllthemes.org)에서 테마 다운 or 내 레포로 fork하기
     * _posts 디렉토리와 confing.yml파일은 나의 폴더와 파이로 대체
     * markdown 형식으로 post파일 만들기
   
- 7. **댓글 기능 추가**
+6. **댓글 기능 추가**
   
     * Disqus 가입 & 세팅 (platform : jekyll 선택)
     * _config.yml 파일 수정
@@ -81,11 +118,11 @@
     comments: true
     ```
   
- 8. **Google Analytics**
+7. **Google Analytics**
  
     * [여기](https://heenamgoong.github.io/jekyll/2022/11/28/GA.html)에 Google Analytics post를 만들어 놨다. 참고하면 된다.
 
-9. **favicon**
+8. **favicon**
 
     * _includes/head.html 파일에 아래 코드 추가
     ```html
