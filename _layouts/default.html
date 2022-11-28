@@ -4,6 +4,15 @@
 
   {%- include head.html -%}
 
+  <head>
+
+    {% include analytics.html %}
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
+    {% endif %}
+    
+  </head>
+
   <body>
 
     {%- include views/header.html -%}
