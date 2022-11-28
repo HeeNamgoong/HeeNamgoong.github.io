@@ -105,7 +105,12 @@
       </script>
     ```
 
+9. **favicon**
 
+    * _includes/head.html 파일에 아래 코드 추가
+    ```html
+     <link rel="icon" type="image/png" href="favicon.ico">
+    ```
 
 
 
