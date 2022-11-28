@@ -4,6 +4,7 @@
   <a href="https://heenamgoong.github.io">
     <img src="https://user-images.githubusercontent.com/104904309/204139400-4a45a3d1-5055-480e-b8d9-65e919780d5f.png" width="600">
   </a>
+  사진을 누르면 깃허브블로그 페이지로 넘아갑니다!
 
   <h1>❤HEE-NAMGOONG HOMEPAGE❤︎</h1>
 
