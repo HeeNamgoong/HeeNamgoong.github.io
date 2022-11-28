@@ -83,27 +83,7 @@
   
  8. **Google Analytics**
  
-    * heenamgoong.github.io 의 Google Analytics post를 만들어 놨다. 참고하면 된다.
-    * google analytics 가입
-    * _config.yml 파일에 아래 코드 추가
-    ```markdown
-    analytics:
-    provider               : "google-gtag" 
-    google:
-      tracking_id          : "G-MN3R6WW2Q3"
-    ```
-    * includes/head.html 파일에 아래 코드 추가
-    ```html
-    <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SP2R0K5HJ4"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-MN3R6WW2Q3');
-      </script>
-    ```
+    * [여기](https://heenamgoong.github.io/jekyll/2022/11/28/GA.html)에 Google Analytics post를 만들어 놨다. 참고하면 된다.
 
 9. **favicon**
 
